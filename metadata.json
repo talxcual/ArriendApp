@@ -1,0 +1,6 @@
+{
+  "name": "LuxeRental Pro",
+  "description": "Plataforma líder para la gestión y logística en el arriendo de juegos y equipos recreativos premium. Incluye control de inventario en vivo, ruteo inteligente, sincronización con Google Sheets y asistente virtual con soporte Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

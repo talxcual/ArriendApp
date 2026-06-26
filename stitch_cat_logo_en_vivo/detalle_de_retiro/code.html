@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Detalle de Retiro | RentMaster Pro</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "surface-variant": "#e4e2e3",
+                        "surface-tint": "#545f6c",
+                        "surface-dim": "#dcd9da",
+                        "surface-container-low": "#f6f3f4",
+                        "surface": "#fbf9f9",
+                        "tertiary-fixed": "#e0e3e2",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#4cd6fb",
+                        "error-container": "#ffdad6",
+                        "on-tertiary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#fbf9f9",
+                        "outline-variant": "#c4c6cc",
+                        "primary": "#05101a",
+                        "tertiary": "#0c100f",
+                        "secondary": "#00677d",
+                        "on-tertiary-container": "#888c8b",
+                        "on-secondary-container": "#005c70",
+                        "on-primary-fixed": "#111d27",
+                        "outline": "#74777c",
+                        "tertiary-container": "#212525",
+                        "on-secondary-fixed-variant": "#004e5f",
+                        "on-surface": "#1b1b1c",
+                        "primary-fixed": "#d8e4f3",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#303031",
+                        "on-tertiary-fixed-variant": "#434847",
+                        "on-secondary-fixed": "#001f27",
+                        "background": "#fbf9f9",
+                        "surface-container-highest": "#e4e2e3",
+                        "primary-container": "#1a2530",
+                        "on-primary-fixed-variant": "#3d4854",
+                        "inverse-on-surface": "#f3f0f1",
+                        "on-surface-variant": "#44474b",
+                        "inverse-primary": "#bcc8d6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#b3ebff",
+                        "on-tertiary-fixed": "#181c1c",
+                        "surface-container-high": "#eae7e8",
+                        "primary-fixed-dim": "#bcc8d6",
+                        "surface-container": "#f0edee",
+                        "on-primary-container": "#818c9a",
+                        "on-background": "#1b1b1c",
+                        "secondary-container": "#50d9fe",
+                        "tertiary-fixed-dim": "#c4c7c6"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline-sm": ["Montserrat"],
+                        "headline-lg": ["Montserrat"],
+                        "headline-lg-mobile": ["Montserrat"],
+                        "body-lg": ["Roboto"],
+                        "title-lg": ["Montserrat"],
+                        "label-lg": ["Roboto"],
+                        "headline-md": ["Montserrat"],
+                        "body-md": ["Roboto"]
+                    },
+                    "fontSize": {
+                        "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "title-lg": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+                        "label-lg": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1px", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { background-color: #F4F7F6; -webkit-tap-highlight-color: transparent; }
+        .soft-elevation { box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .status-pill { padding: 4px 12px; border-radius: 999px; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="flex flex-col min-h-screen text-on-surface">
+<!-- Top App Bar -->
+<header class="bg-surface dark:bg-primary-container flex justify-between items-center px-4 h-16 w-full z-50 fixed top-0 shadow-sm">
+<div class="flex items-center gap-4">
+<button aria-label="Back" class="p-2 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-primary">arrow_back</span>
+</button>
+<h1 class="font-title-lg text-title-lg text-primary">Detalle de Retiro</h1>
+</div>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary" data-icon="cloud_done">cloud_done</span>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-grow pt-16 pb-32 px-4 space-y-6">
+<!-- Map Preview Section -->
+<section class="mt-4 rounded-xl overflow-hidden soft-elevation bg-surface h-48 relative border border-outline-variant">
+<img class="w-full h-full object-cover" data-alt="A detailed digital map view of the Martinez neighborhood in Buenos Aires, featuring clean street lines and a professional blue and gray navigation interface. A prominent teal location pin marks a collection point. The lighting is bright and clear, emphasizing a modern logistical workflow aesthetic with subtle shadows and high-contrast labels." data-location="Martinez, Buenos Aires" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaZ_5wF8YqhEgW1OWPeQIXUd1x-KIdDqYUMTYFPUds6eHz3bC471pX-y5nLKlncqv1uATAXkDoaX2ySebedI741wv2twIVl3AX64XdiV41Z_YWL_G013OrO3X_S92GvQkrm5jRwMEmspLbqBYsvQDWxBK9Gz3WF5m7taStfRlqBrbwEGJoVJBfenXptqnVwsoTF9ODfTHuSj-WaLhGXYcmWpa0UzV9XYF_exm4fpVog5G0c8eNn1fo3g1vo3xKOXcBDq1T_-9vl1A"/>
+<div class="absolute bottom-4 left-4 bg-surface px-3 py-1.5 rounded-lg flex items-center gap-2 soft-elevation border border-outline-variant">
+<span class="material-symbols-outlined text-secondary text-[20px]">location_on</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Martínez, Buenos Aires</span>
+</div>
+</section>
+<!-- Client Information Card -->
+<section class="bg-surface-container-lowest p-padding-card rounded-xl soft-elevation flex items-center justify-between border border-surface-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center">
+<span class="font-headline-sm text-headline-sm text-on-secondary-fixed-variant">MG</span>
+</div>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-surface">María García</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Cliente Premium</p>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary active:scale-90 transition-transform">
+<span class="material-symbols-outlined">call</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary active:scale-90 transition-transform">
+<span class="material-symbols-outlined">chat_bubble</span>
+</button>
+</div>
+</section>
+<!-- Detalle del Pedido -->
+<section class="space-y-3">
+<h3 class="font-label-lg text-label-lg text-on-surface-variant px-1 uppercase tracking-wider">Detalle del Pedido</h3>
+<div class="bg-surface-container-lowest p-padding-card rounded-xl soft-elevation border border-surface-variant/30 space-y-4">
+<div class="flex justify-between items-start">
+<div class="flex gap-4">
+<div class="w-16 h-16 rounded-lg bg-surface-container-low flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A professional white 3x3m Gazebo Pro tent set up in a bright, outdoor exhibition environment. The lighting is soft morning sunlight, casting gentle shadows. The style is clean and corporate, highlighting the durable materials and precision engineering of the rental equipment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjkLO_1CYl3rSqUdcSv5l44BtF-Kqb2_-I7PGL7UrtntthBaOzc5EHZw-KX6fZIpjrFGRcVr74sDSCodlvn-GVPEivS58fyqlA9G3SrJOPx0hQOzQbGPGKoEgkX6QBXI9N4CUxdqEjzwVmB-RFYXDaZIdSLMP5Fa10gEZQlBUD7SFo5JPzNDW8Jvj-Q0E1SgNcoCOHdI78n_Yo6rfam2cCpEPFPulGG2gZoL5Wmx_WBK8-_2sj0wKh-WEVKtj5X3izLXs2hao739g"/>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-on-surface">Gazebo Pro 3x3m</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">ID: #RM-2023-4390</p>
+</div>
+</div>
+<div class="bg-secondary-container text-on-secondary-container status-pill font-label-lg text-label-lg">
+                        Pendiente
+                    </div>
+</div>
+<div class="pt-4 border-t border-surface-variant flex justify-between items-center">
+<span class="font-body-md text-body-md text-on-surface-variant">Costo de Retiro</span>
+<span class="font-headline-sm text-headline-sm text-primary">$12.000</span>
+</div>
+</div>
+</section>
+<!-- Ubicación de Retiro & Action Card -->
+<section class="bg-primary-container text-on-primary-fixed-variant p-6 rounded-2xl shadow-lg space-y-6">
+<div class="flex items-start gap-4">
+<div class="bg-secondary p-3 rounded-xl">
+<span class="material-symbols-outlined text-white">near_me</span>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-white">Ubicación de Retiro</h3>
+<p class="font-body-lg text-body-lg text-on-primary-container">Calle Falsa 123, Martínez</p>
+<p class="font-body-md text-body-md text-on-primary-container opacity-70">San Isidro, Prov. Buenos Aires</p>
+</div>
+</div>
+<button class="w-full bg-secondary-container text-on-secondary-container font-headline-sm text-headline-sm py-4 rounded-xl flex items-center justify-center gap-3 active:scale-[0.98] transition-all hover:brightness-110 shadow-md">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+<span>Iniciar Viaje</span>
+</button>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 w-full h-20 z-50 flex justify-around items-center px-2 pb-safe bg-surface-container-lowest dark:bg-primary-container shadow-[0_-2px_8px_rgba(0,0,0,0.04)] rounded-t-xl">
+<div class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-primary-container px-5 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
+<span class="font-label-lg text-label-lg">Catálogo</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-primary-container px-5 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined" data-icon="calendar_today">calendar_today</span>
+<span class="font-label-lg text-label-lg">Calendario</span>
+</div>
+<!-- Active Tab: Logística -->
+<div class="flex flex-col items-center justify-center bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-2xl px-5 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined" data-icon="local_shipping" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<span class="font-label-lg text-label-lg">Logística</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant dark:text-on-primary-container px-5 py-1 active:scale-95 transition-transform duration-150">
+<span class="material-symbols-outlined" data-icon="more_horiz">more_horiz</span>
+<span class="font-label-lg text-label-lg">Más</span>
+</div>
+</nav>
+<script>
+        // Micro-interactions and effects
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('touchstart', function() {
+                this.classList.add('opacity-80');
+            });
+            button.addEventListener('touchend', function() {
+                this.classList.remove('opacity-80');
+            });
+        });
+
+        // Atmospheric sync pulse for the cloud icon
+        const cloudIcon = document.querySelector('[data-icon="cloud_done"]');
+        if (cloudIcon) {
+            setInterval(() => {
+                cloudIcon.classList.add('scale-110');
+                setTimeout(() => cloudIcon.classList.remove('scale-110'), 2000);
+            }, 5000);
+        }
+    </script>
+</body></html>
