@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
+  namespace = "com.kleber.arriendapp"
     compileSdk {
         version = release(36)
     }
