@@ -49,13 +49,4 @@ A continuación, algunas pantallas de la interfaz de usuario de ArriendApp:
 </div>
 
 ---
-
-## ⚙️ Instalación y Uso Local
-
-1. Clona este repositorio.
-2. Abre el proyecto en **Android Studio**.
-3. Asegúrate de tener el archivo `google-services.json` configurado en el directorio `app/` (necesario para la conexión con Firebase).
-4. Sincroniza Gradle y ejecuta la app en un emulador o dispositivo físico.
-
----
 *Desarrollado para optimizar la logística y el arriendo de equipos a nivel profesional.*
