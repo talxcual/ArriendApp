@@ -5,9 +5,9 @@
   &nbsp;&nbsp;
   <img src="docs/screenshots/screenshot_2.png" width="220" alt="Catálogo"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/screenshot_3.png" width="220" alt="Reserva"/>
+  <img src="docs/screenshots/screenshot_3.png" width="220" alt="Nuevo Arriendo"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/screenshot_4.png" width="220" alt="Calendario"/>
+  <img src="docs/screenshots/screenshot_8.png" width="220" alt="Asistente IA"/>
 </p>
 
 <p align="center">
@@ -38,13 +38,13 @@
 
 ## 📱 Pantallas
 
-| Login | Catálogo | Nuevo Arriendo | Calendario |
-|-------|----------|----------------|------------|
-| <img src="docs/screenshots/screenshot_1.png" width="180"/> | <img src="docs/screenshots/screenshot_2.png" width="180"/> | <img src="docs/screenshots/screenshot_3.png" width="180"/> | <img src="docs/screenshots/screenshot_4.png" width="180"/> |
+| Login | Catálogo | Nuevo Arriendo | Asistente IA |
+|-------|----------|----------------|--------------|
+| <img src="docs/screenshots/screenshot_1.png" width="180"/> | <img src="docs/screenshots/screenshot_2.png" width="180"/> | <img src="docs/screenshots/screenshot_3.png" width="180"/> | <img src="docs/screenshots/screenshot_8.png" width="180"/> |
 
-| Detalle Reserva | Contacto Cliente | Estado | Asistente IA |
-|-----------------|-----------------|--------|--------------|
-| <img src="docs/screenshots/screenshot_5.png" width="180"/> | <img src="docs/screenshots/screenshot_6.png" width="180"/> | <img src="docs/screenshots/screenshot_7.png" width="180"/> | <img src="docs/screenshots/screenshot_8.png" width="180"/> |
+| Calendario | Contacto Cliente | Estado | Detalle de Entrega |
+|------------|------------------|--------|--------------------|
+| <img src="docs/screenshots/screenshot_4.png" width="180"/> | <img src="docs/screenshots/screenshot_6.png" width="180"/> | <img src="docs/screenshots/screenshot_7.png" width="180"/> | <img src="docs/screenshots/screenshot_5.png" width="180"/> |
 
 ---
 
@@ -113,6 +113,12 @@ app/
 Este repositorio funciona como portafolio y exhibición de la arquitectura, diseño UI/UX y capacidades técnicas de **ArriendApp**.
 
 Al ser una aplicación comercial privada, las credenciales de Firebase (`google-services.json`) y el acceso al backend se mantienen restringidos.
+
+---
+
+## 📜 Licencia
+
+Proyecto privado — **ArriendApp** © 2026. Todos los derechos reservados.
 
 ---
 
