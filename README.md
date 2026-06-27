@@ -5,9 +5,9 @@
   &nbsp;&nbsp;
   <img src="docs/screenshots/screenshot_2.png" width="220" alt="Catálogo"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/screenshot_3.png" width="220" alt="Nuevo Arriendo"/>
+  <img src="docs/screenshots/screenshot_3.png" width="220" alt="Nuevo arriendo"/>
   &nbsp;&nbsp;
-  <img src="docs/screenshots/screenshot_8.png" width="220" alt="Asistente IA"/>
+  <img src="docs/screenshots/screenshot_4.png" width="220" alt="Asistente ia"/>
 </p>
 
 <p align="center">
@@ -38,13 +38,13 @@
 
 ## 📱 Pantallas
 
-| Login | Catálogo | Nuevo Arriendo | Asistente IA |
+| Login | Catálogo | Nuevo arriendo | Asistente ia |
 |-------|----------|----------------|--------------|
-| <img src="docs/screenshots/screenshot_1.png" width="180"/> | <img src="docs/screenshots/screenshot_2.png" width="180"/> | <img src="docs/screenshots/screenshot_3.png" width="180"/> | <img src="docs/screenshots/screenshot_8.png" width="180"/> |
+| <img src="docs/screenshots/screenshot_1.png" width="180"/> | <img src="docs/screenshots/screenshot_2.png" width="180"/> | <img src="docs/screenshots/screenshot_3.png" width="180"/> | <img src="docs/screenshots/screenshot_4.png" width="180"/> |
 
-| Calendario | Contacto Cliente | Estado | Detalle de Entrega |
+| Calendario | Contacto Cliente | Estado | Detalle de entrega |
 |------------|------------------|--------|--------------------|
-| <img src="docs/screenshots/screenshot_4.png" width="180"/> | <img src="docs/screenshots/screenshot_6.png" width="180"/> | <img src="docs/screenshots/screenshot_7.png" width="180"/> | <img src="docs/screenshots/screenshot_5.png" width="180"/> |
+| <img src="docs/screenshots/screenshot_5.png" width="180"/> | <img src="docs/screenshots/screenshot_6.png" width="180"/> | <img src="docs/screenshots/screenshot_7.png" width="180"/> | <img src="docs/screenshots/screenshot_8.png" width="180"/> |
 
 ---
 
