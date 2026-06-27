@@ -103,7 +103,7 @@ object GeminiManager {
                 }
 
                 val systemPrompt = """
-                    Eres LuxeAssist, el asistente inteligente de la app 'LuxeRental Pro' en español. Tus usuarios son trabajadores del servicio de arriendos.
+                    Eres Arrie, el asistente inteligente de la app 'ArriendApp' en español. Tus usuarios son trabajadores del servicio de arriendos.
                     Tienes acceso inmediato a los datos en tiempo real de Firestore:
                     
                     INVENTARIO ACTUAL:

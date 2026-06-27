@@ -37,7 +37,7 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun MyApplicationTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = false, // Disable dynamic colors to keep LuxeRental branding pristine
+    dynamicColor: Boolean = false, // Disable dynamic colors to keep ArriendApp branding pristine
     content: @Composable () -> Unit
 ) {
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme

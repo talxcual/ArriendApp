@@ -5,13 +5,13 @@ import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.*
@@ -21,6 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
@@ -42,7 +43,7 @@ fun LoginScreen(
     val authState by viewModel.authState.collectAsState()
 
     var isRegisterMode by remember { mutableStateOf(false) }
-    var email by remember { mutableStateOf("juan.perez@luxerental.com") }
+    var email by remember { mutableStateOf("juan.perez@arriendapp.com") }
     var password by remember { mutableStateOf("admin123") }
     var nombre by remember { mutableStateOf("Juan Pérez") }
     var rol by remember { mutableStateOf("Administrador Logística") }
@@ -97,27 +98,13 @@ fun LoginScreen(
                 .verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Box(
+            Image(
+                painter = painterResource(id = R.drawable.logo_login),
+                contentDescription = "Logo ArriendApp",
                 modifier = Modifier
-                    .size(80.dp)
-                    .background(Secundario, shape = RoundedCornerShape(20.dp)),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    Icons.Default.Home,
-                    contentDescription = null,
-                    tint = Color.White,
-                    modifier = Modifier.size(45.dp)
-                )
-            }
-
-            Spacer(modifier = Modifier.height(16.dp))
-
-            Text(
-                text = "LuxeRental Pro",
-                style = MaterialTheme.typography.headlineLarge,
-                color = Color.White,
-                fontWeight = FontWeight.Bold
+                    .fillMaxWidth(0.6f)
+                    .height(140.dp),
+                contentScale = androidx.compose.ui.layout.ContentScale.Fit
             )
 
             Text(
@@ -139,7 +126,7 @@ fun LoginScreen(
                     modifier = Modifier.padding(24.dp)
                 ) {
                     Text(
-                        text = if (isRegisterMode) "Registro de Trabajador" else "Ingreso de Trabajador",
+                        text = if (isRegisterMode) "Registro" else "Inicio de sesión",
                         style = MaterialTheme.typography.titleLarge,
                         color = Primario,
                         fontWeight = FontWeight.Bold

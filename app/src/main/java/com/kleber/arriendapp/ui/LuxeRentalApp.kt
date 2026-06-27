@@ -57,7 +57,7 @@ fun LuxeRentalApp(dao: LuxeRentalDao) {
                                 "catalogo" -> "Catálogo"
                                 "logistica" -> "Logística"
                                 "calendario" -> "Calendario"
-                                else -> "LuxeRental Pro"
+                                else -> "ArriendApp"
                             },
                             color = Primario
                         )
@@ -70,6 +70,17 @@ fun LuxeRentalApp(dao: LuxeRentalDao) {
                             }
                         }) {
                             Icon(Icons.Default.CloudUpload, contentDescription = "Exportar a Sheets", tint = Primario)
+                        }
+                        IconButton(onClick = {
+                            scope.launch {
+                                com.google.firebase.auth.FirebaseAuth.getInstance().signOut()
+                                Toast.makeText(context, "Sesión cerrada", Toast.LENGTH_SHORT).show()
+                                navController.navigate("login") {
+                                    popUpTo(0) { inclusive = true }
+                                }
+                            }
+                        }) {
+                            Icon(Icons.Default.ExitToApp, contentDescription = "Cerrar sesión", tint = Primario)
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.White)

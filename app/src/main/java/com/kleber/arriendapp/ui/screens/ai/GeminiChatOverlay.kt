@@ -54,7 +54,7 @@ fun GeminiChatOverlay(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "LuxeAssist AI",
+                        text = "Arrie",
                         color = Color.White,
                         fontWeight = FontWeight.Bold,
                         fontSize = 18.sp
