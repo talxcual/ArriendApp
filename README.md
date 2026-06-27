@@ -1,21 +1,61 @@
+# ArriendApp 🚚
+> **Logística & Arriendo Recreativo Premium**
+
+ArriendApp es una aplicación nativa para Android diseñada para la gestión profesional, eficiente y rápida de servicios de arriendo de equipos y logística. 
+
+A través de una interfaz moderna y fluida, los administradores pueden mantener el control absoluto sobre su catálogo de productos, gestionar reservas en tiempo real y comunicarse directamente con los clientes.
+
+---
+
+## 🚀 Características Principales
+
+- **Gestión de Catálogo (CRUD):** Añade, modifica y elimina equipos de tu inventario en tiempo real con sincronización a la nube.
+- **Panel de Reservas (Calendario):** Visualiza un listado cronológico con los estados de las reservas (Pendiente, Entregado, Finalizado).
+- **Control de Fechas y Precios:** Selección intuitiva de fechas y horas para cada entrega, con formatos de moneda locales (CLP).
+- **Comunicación Integrada:** Acceso rápido con un solo toque para llamar al cliente o abrir un chat directo en WhatsApp (sin necesidad de agregarlo a contactos).
+- **UI/UX Premium:** Interfaz oscura/clara moderna desarrollada enteramente con Jetpack Compose, animaciones fluidas y un diseño centrado en la eficiencia operativa.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- **Lenguaje:** Kotlin
+- **UI Toolkit:** Jetpack Compose & Material Design 3
+- **Arquitectura:** MVVM (Model-View-ViewModel)
+- **Backend (BaaS):** Firebase (Authentication & Firestore)
+- **Asíncronos:** Kotlin Coroutines & Flows
+- **Integraciones Nativas:** Intents (ACTION_DIAL, ACTION_VIEW para WhatsApp)
+
+---
+
+## 📱 Galería de la Aplicación
+
+A continuación, algunas pantallas de la interfaz de usuario de ArriendApp:
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <img src="docs/screenshots/screenshot_1.png" width="250" />
+  <img src="docs/screenshots/screenshot_2.png" width="250" />
+  <img src="docs/screenshots/screenshot_3.png" width="250" />
+</div>
+<div align="center">
+  <img src="docs/screenshots/screenshot_4.png" width="250" />
+  <img src="docs/screenshots/screenshot_5.png" width="250" />
+  <img src="docs/screenshots/screenshot_6.png" width="250" />
+</div>
+<div align="center">
+  <img src="docs/screenshots/screenshot_7.png" width="250" />
+  <img src="docs/screenshots/screenshot_8.png" width="250" />
+  <img src="docs/screenshots/screenshot_9.png" width="250" />
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ⚙️ Instalación y Uso Local
 
-View your app in AI Studio: https://ai.studio/apps/b48d08f6-5d83-450b-888b-4617a7b267f1
+1. Clona este repositorio.
+2. Abre el proyecto en **Android Studio**.
+3. Asegúrate de tener el archivo `google-services.json` configurado en el directorio `app/` (necesario para la conexión con Firebase).
+4. Sincroniza Gradle y ejecuta la app en un emulador o dispositivo físico.
 
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+---
+*Desarrollado para optimizar la logística y el arriendo de equipos a nivel profesional.*
