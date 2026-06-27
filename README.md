@@ -49,4 +49,12 @@ A continuación, algunas pantallas de la interfaz de usuario de ArriendApp:
 </div>
 
 ---
+
+## 🔒 Nota sobre el Proyecto
+
+Este repositorio funciona como un portafolio y exhibición de la arquitectura, diseño UI/UX y capacidades técnicas del proyecto **ArriendApp**. 
+
+Al ser una aplicación comercial privada, el código fuente completo, las credenciales de Firebase (`google-services.json`) y otros accesos al backend se mantienen restringidos.
+
+---
 *Desarrollado para optimizar la logística y el arriendo de equipos a nivel profesional.*
